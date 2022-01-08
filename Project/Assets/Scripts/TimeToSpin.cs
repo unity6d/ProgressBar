@@ -8,7 +8,7 @@ public class TimeToSpin : MonoBehaviour
     [SerializeField] DateTime timerEnd;
     [SerializeField] Text seconds;
     [SerializeField] TextMeshProUGUI secondsTxt;
-    [SerializeField] float TargetTimeInSeconds;
+    [SerializeField] float TargetTimeInSeconds; //depends seconds time value will change
     private int TotalSeconds;
     bool isSpinAllow;
     [SerializeField] Button StartTimerButton;
@@ -50,7 +50,7 @@ public class TimeToSpin : MonoBehaviour
     private void Update()
     {
         if (isSpinAllow) return;
-        if (TotalSeconds > 0)
+        if (img.fillAmount <= 1)
         {
             TimeSpan delta = timerEnd - DateTime.Now;
             float TotalSeconds = (float)delta.TotalSeconds;
@@ -76,3 +76,7 @@ public class TimeToSpin : MonoBehaviour
         }
     }
 }
+//please find the github link in the video description
+//https://github.com/unity6d/ProgressBar
+
+

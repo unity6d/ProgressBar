@@ -1098,7 +1098,7 @@ MonoBehaviour:
   img: {fileID: 1810736392}
   seconds: {fileID: 2130287719}
   secondsTxt: {fileID: 264322341}
-  TargetTimeInSeconds: 60
+  TargetTimeInSeconds: 15
   StartTimerButton: {fileID: 1781665305}
   isTimeFormatMinuts: 1
   timeValue: 
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 1, b: 0.08237815, a: 1}
+  m_EffectColor: {r: 0.63737637, g: 0.2082592, b: 0.9811321, a: 1}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!1 &963194225
@@ -1425,7 +1425,7 @@ MonoBehaviour:
   img: {fileID: 1309071712}
   seconds: {fileID: 215954017}
   secondsTxt: {fileID: 286483996}
-  TargetTimeInSeconds: 60
+  TargetTimeInSeconds: 15
   StartTimerButton: {fileID: 471104945}
   isTimeFormatMinuts: 0
   timeValue: 
@@ -1441,7 +1441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 1, b: 0.08237815, a: 1}
+  m_EffectColor: {r: 0.6603774, g: 0.28969383, b: 0.3015545, a: 1}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!1 &1465043101
